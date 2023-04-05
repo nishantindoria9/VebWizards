@@ -4,6 +4,7 @@ html {
 
 .body{
   background-color: #181717;
+  
 }
 
 .container1{
@@ -284,6 +285,10 @@ top: 40px;
 font-weight: 700;
 font-size: 40px;
 }
+
+.container5{
+  background-color: #181717;
+}
 .container5-1{
     position: relative;
     top: 50px;
@@ -292,7 +297,7 @@ font-size: 40px;
     width: 300px;
     display: inline-block;
     position: relative;
-    background: white;
+    background:#f9f9fc;
     color: black;
     text-align: center;
     margin-left: 240px;
