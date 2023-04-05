@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.body{
+  background-color: #181717;
+}
+
 .container1{
   
     position: relative;
@@ -29,7 +33,7 @@ html {
     font-weight: 700;
     font-size: 57.5px;
     letter-spacing: 2px;
-    color: black;
+    color: rgb(220, 222, 222);
 
 }
 .heading2{
