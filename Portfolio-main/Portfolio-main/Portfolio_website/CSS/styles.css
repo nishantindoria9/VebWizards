@@ -90,6 +90,7 @@ html {
   *****/
   .link1{
     color: white;
+    text-align: center;
   }
   .link1:visited {
     color: rgb(246, 249, 246);
