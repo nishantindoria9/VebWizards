@@ -1,294 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Veb Wizards</title>
+  <title>Navbar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="stylesheet" href="CSS/video.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
- 
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link  rel="icon" href="CSS/Photos/favicon.ico">
-
 </head>
+<body style="background-color: black;">
 
-<body class="body">
-
-  <header>
-    <nav class="nav">
-        <div class="logo">
-          <h1 class="heading14">VEB<span>WIZARD</span></h1>
-        </div>
-        <ul class="ul-class">
-
-            <li><a href="#"  class="link2">Home</a></li>
-            <li><a href="#project"  class="link2">Our Work</a></li>
-            <li><a href="Pricings.html" target="_blank" class="link2">Pricings</a></li>
-            <li><a href="Contact_us.html" target="_blank" class="link2">Contact Us</a></li>
-            <li><a href="About.html" target="_blank" class="link2">About Us</a></li>
-
-        </ul>
-        
-    </nav>
-</header>
-
-
-
-<!-- VIDEO CONTENT -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-  <div class="container"><a href="#" class="navbar-brand"> <b></b></a>
-   <!-- <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>-->
-    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-      <!--<ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only"></span></a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
-        <li class="nav-item dropdown"><a id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
-          <div aria-labelledby="navbarDropdown" class="dropdown-menu"><a href="#" class="dropdown-item">Action</a><a href="#" class="dropdown-item">Another action</a>
-            <div class="dropdown-divider"></div><a href="#" class="dropdown-item">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item"><a href="#" tabindex="-1" aria-disabled="true" class="nav-link disabled">Disabled</a></li>
-      </ul>-->
+<nav class="navbar navbar-inverse>
+ <div class="container-fluid"></div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Veb <span> Wizard</span></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav ul-class">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Our Work </a> </li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+     
     </div>
   </div>
 </nav>
-<!-- End -->
-
-
-<!-- Background video -->
-<div  class="video-background-holder">
-  <div class="video-background-overlay"></div>
-  <video  playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="CSS/Photos/Grow with us.mp4" type="video/mp4">
-
-    </video>
-
-  <div class="video-background-content container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white" >
-
-        <h1 class="display-4"></h1>
-        <p class="lead mb-0"></p>
-        <p class="lead"> <a href="https://bootstrapious.com/snippets" class="text-white">
-                    <u></u></a>
-
-                  </p>
-      </div>
-
-    </div>
-  </div>
-
-</div>
-<!-- End -->
-
-
-<!-- For demo purpose -->
-<section class="py-5">
-  <div class="container py-5" style="text-align: center;">
-    <div class="row">
-      <button class="button1"> <a href="get_started.html" class="link1">Get Started</a></button>
-
-
-      <!--<div class="col-lg-8 mx-auto">
-        <p class="lead">The whole content is wrapped into <code>.video-background-holder</code>, this class is mainly used to set the content dimensions, location and the fallback background in case the browser doesn't support the video format.</p>
-        <p class="lead">Change your video source from <code>source</code> tag, and the overlay color from <code>.video-background-overlay</code>.</p>
-        <p class="lead">The content text wrapped into <code>.video-background-content</code> is vertically centered using flex utilities.</p>
-      </div>-->
-    </div>
-  </div>
-</section>
-<!-- VIDEO CONTENT End -->
-<hr>
-
-<div class="container">
-
-  <div class="skills">
-    <h2 style="text-align: center;">My Skills.</h2>
-    <div class="skill-row">
-      <img class="code-img" src="CSS/Photos/benifits/1].png" alt="code-img">
-
-      <h3>Design & Development</h3>
-      <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
-
-    </div>
-    <div class="skill-row">
-      <img class="chilli-img" src="CSS/Photos/benifits/2].png" alt="chillies-img">
-
-      <h3>Hot Wings Challenge</h3>
-      <p>But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost Peppers and Carolina Reapers are my favourite snacks.</p>
-
-    </div>
-    <div class="skill-row">
-      <img class="code-img" src="CSS/Photos/benifits/Fotor_AI (1).png" alt="code-img">
-
-      <h3>Design & Development</h3>
-      <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
-
-    </div>
-    <div class="skill-row">
-      <img class="chilli-img" src="CSS/Photos/benifits/Fotor_AI (2).png" alt="chillies-img">
-
-      <h3>Hot Wings Challenge</h3>
-      <p>But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost Peppers and Carolina Reapers are my favourite snacks.</p>
-
-    </div>
-  </div>
-
-</div>
-
-
-
-
-
-<div class="container5" style="text-align: center;"style="margin: auto;"> 
-  <h6 class="heading8" >HOW IT WORKS?</h6>
-  <h2 class="heading9">Build your job-winning <br> portfolio in three simple steps</h2>
-    <div class="container5-1"> <h2 class="heading13">STEP 1</h2><p>Firstly You Have to <br> Contact Us on <br> Whatsapp, Instagram,etc .</p> </div> 
-    <div class="container5-2"> <h2 class="heading13">STEP 2</h2><p>Give You Details  <br> Which You Want  <br> Show On Your Website.</p>  </div>
-    <div class="container5-3"> <h2 class="heading13">STEP 3</h2><p>Then You Have <br> your website <br>with Domain & Hosting  </p> </div>
-    
-
-  </div>
-
-  <br>
-
-
-<div class="container7" id="project"> 
- <h2 style="text-align:center; color : #5d61bf" >SOME OTHER PORTFOLIOS</h2>
-
-  <div class="container">
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-      <img src="CSS/Photos/works/1.png" style="width:30%" class="photo5">
-    </div>
   
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-      <img src="CSS/Photos/works/2.jpg" style="width:30%" class="photo5" >
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-      <img src="CSS/Photos/works/website-design-162417.png" style="width:30%" class="photo5">
-    </div>
-      
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-      <img src="CSS/Photos/works/website-design-17195.png" style="width:30%" class="photo5">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-      <img src="CSS/Photos/works/website-design-18994.png" style="width:30%" class="photo5">
-    </div>
-      
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-      <img src="CSS/Photos/works/website-design-36786.png" style="width:30%" class="photo5">
-    </div>
-      
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-  
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="CSS/Photos/works/1.png" style="width:100%" onclick="currentSlide(1)" alt="">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="CSS/Photos/works/2.jpg" style="width:100%" onclick="currentSlide(2)" alt=" ">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="CSS/Photos/works/website-design-162417.png" style="width:100%" onclick="currentSlide(3)" alt=" ">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="CSS/Photos/works/website-design-17195.png" style="width:100%" onclick="currentSlide(4)" alt=" ">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="CSS/Photos/works/website-design-18994.png" style="width:100%" onclick="currentSlide(5)" alt=" ">
-      </div>    
-      <div class="column">
-        <img class="demo cursor" src="CSS/Photos/works/website-design-36786.png" style="width:100%" onclick="currentSlide(6)" alt=" ">
-      </div>
-    
- 
-    </div>
-  </div>
-  <br>
-
-  
-</div>
-  
-  <div class="container10" >
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-color: #181717"><iframe width="500" height="350" src="https://www.youtube.com/embed/nOd-JsLGi1w" 
-          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen></iframe></div>
-                
-       </div>
-    <div class="swiper-pagination"></div>
-  </div>
-  
-
-</div>
-<footer>
-  <div class="footer">
-      <div class="Contact">
-          <h1>Contact-Information</h1>
-          <div class="content" style="padding: 15px 0px;"><a href="#"><i
-                      class="fa-sharp fa-solid fa-phone-volume"></i>MON TO SUN :
-                  24/7</a><a href="#">
-                  <h4>IND+91 8126123080</h4>
-              </a></div>
-          <div class="contact" style="padding: 15px 0px"><a href=" #"><i class="fa-solid fa-inbox"></i>DO YOU HAVE
-                  A QUESTION?</a><a href="#">
-                  <h4>Support@onlineportfolio.com</h4>
-              </a></div>
-          <div class="contact" style="padding: 15px 0px"><a href="#"><i
-                      class="fa-sharp fa-solid fa-user"></i>Social Media</a><a href="#" style="margin: 5px;"><i
-                      class="fa-brands fa-square-twitter"></i><i class="fa-brands fa-facebook"></i><i
-                      class="fa-brands fa-youtube"></i><i class="fa-brands fa-instagram"></i></a></div>
-      </div>
-      <div class="quick-links">
-          <h1 >Quick Links</h1>
-          <div class="ul" style="padding: 20px 0px; font-size: 18px;">
-            <a href="#" >Home</a>
-            <a href="Order_a_Portfolio.html" target="_blank">Order a Portfolio</a>
-            <a href="Cover_letter.html" target="_blank">Cover letter</a>
-            <a href="https://www.c-sharpcorner.com/article/web-development4/" target="_blank">Blogs About Portfolio</a>
-            <a href="Our_Policies.html" target="_blank">Our Policies</a></div>
-      </div>
-      <div class="our-company">
-          <h1 >Our Company</h1>
-          <div class="company">
-            <a href="About.html" target="_blank">About Us</a>
-            <a href="Privacy_Policy.html" target="_blank">Privacy Policy</a>
-            <a href="Affilate_Program.html" target="_blank">Affilate Program</a>
-            <a href="Contact_us.html" target="_blank">Contact Us</a></div>
-      </div>
-      <div class="our-office">
-          <h1 >Our Office</h1>
-          <div class="map"><iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.5366368085247!2d76.84910185005029!3d23.07744338485136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ce9d90a8052ed%3A0xf16d30274bfb79f3!2sVIT%20BHOPAL%20New%20Academic%20Block!5e0!3m2!1sen!2sin!4v1673964118401!5m2!1sen!2sin"
-                  width="300" height="300" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-      </div>
-  </div>
-</footer>   
-
-<!-- <script src="index.js"> 
-</script> -->
-
-<script src="index.js"></script>
 
 </body>
 </html>
