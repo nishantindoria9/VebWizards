@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,70 +10,98 @@
 
     <title>Document</title>
 </head>
+
 <body>
 
-<style>
-    body{
-        background-color: black;
-    }
-.heading{
-    text-align: center;
-    background-color: aqua;
-    margin: 50px auto 50px auto;
-}
-.side1{
-    background-color: red;
-    
-   
+    <style>
+        body {
+            background-color: black;
+        }
 
-}
-.side2{
-    background-color: rgb(135, 107, 107);
-  
-    
-}
-</style>
+        .contact {
+            text-align: center;
+            background-color: #800020;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .side1 {
+            background-color: #800020;
+            border-radius: 8px;
+            position: relative;
+            padding-top: 20px;
 
 
+        }
 
-    <div class="main">
-        <h1 class="heading" >contact us</h1>
+        .side2 {
+            background-color: #800020;
+            border-radius: 8px;
+            position: relative;
+            left: 8px;
+            color: white;
+
+        }
+    </style>
+
+
+
+    <div class="container" style="padding: 30px;">
+        <div class="contact">
+            <h1>Contact us</h1>
+            <h6>Don't worry guys, we'll worry for you!</h6>
+        </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="row">
-            <div class="col-md-12 side1" >
-    <h1> contact info</h1>
-    <h1><i class="fa-brands fa-instagram"></i><a href="https://www.google.co.in/" style="color: black;">nishant</a></h1>
-    <h1><i class="fa-solid fa-phone"></i><a href="https://www.google.co.in/" style="color: black;">nishant</a></h1>
-    <h1><i class="fa-brands fa-whatsapp"></i><a href="https://www.google.co.in/" style="color: black;">nishant</a></h1>
-    <h1><i class="fa-regular fa-envelope"></i><a href="https://www.google.co.in/" style="color: black;">nishant</a></h1>
+            <div class="col-4 side1">
+                <h1 style="color: white;"> Contact Information</h1>
+                <h1><i class="fa-brands fa-instagram"></i><a href="https://www.google.co.in/"
+                        style="color: black;">nishant</a></h1>
+                <h1><i class="fa-solid fa-phone"></i><a href="https://www.google.co.in/"
+                        style="color: black;">nishant</a></h1>
+                <h1><i class="fa-brands fa-whatsapp"></i><a href="https://www.google.co.in/"
+                        style="color: black;">nishant</a></h1>
+                <h1><i class="fa-regular fa-envelope"></i><a href="https://www.google.co.in/"
+                        style="color: black;">nishant</a></h1>
             </div>
-            <div class="col-md-2 ">
-                <h1></h1>
-            </div>
-            <div class="col-md-12 side2" style="text-align: center;">
-                <h1>Fill this form so we get some idea about what kind of website do you wnant</h1>
+
+            <div class="col-8 side2">
+                <h3>Fill this form so we get some idea about what kind of website do you wnant</h3>
                 <form action="/action_page.php">
-                    <label for="Fullname">Full name:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Full Name"><br><br>
-                    <label for="email">email:</label><br>
-                    <input type="text" id="email" name="email" placeholder="email"><br><br>
-                    <label for="phone">phone number</label><br>
-                    <input type="text" id="phone" name="phone" placeholder="Phone"><br><br>
-                    <input type="checkbox" id="c1" name="c1" >
+                    <table>
+                        <tr>
+                            <td> <label for="Fullname">Full name:</label> </td>
+               
+                            <td> <input type="text" id="name" name="name" placeholder="Full Name"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="email">email:</label> </td>
+                            <td>  <input type="text" id="email" name="email" placeholder="email"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="phone">phone number</label> </td>
+                            <td> <input type="text" id="phone" name="phone" placeholder="Phone"></td>
+                        </tr>
+                    </table>
+
+                    <h4>What you want us to do:</h4>
+                    <input type="checkbox" id="c1" name="c1">
                     <label for="c1"> website upgrad</label><br><br>
-                    <input type="checkbox" id="vehicle2" name="c2" >
+                    <input type="checkbox" id="vehicle2" name="c2">
                     <label for="c2"> New Website</label><br><br>
-                    <input type="checkbox" id="vehicle3" name="c3" >
+                    <input type="checkbox" id="vehicle3" name="c3">
                     <label for="c3"> domain and Hosting</label><br><br>
                     <input type="submit" value="Submit">
-                  </form>
+                </form>
             </div>
         </div>
-        
+
     </div>
-    
-    
+
+
 </body>
+
 </html>
