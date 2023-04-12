@@ -287,25 +287,7 @@ font-weight: 700;
 font-size: 40px;
 }
 
-.container5{
-  background-color: #181717;
-}
-.container5-1{
-    position: relative;
-    top: 50px;
-    bottom: 20px;
-    height:250px;
-    width: 300px;
-    display: inline-block;
-    position: relative;
-    background:#f9f9fc;
-    color: black;
-    text-align: center;
-    margin-left: 240px;
-    border-radius: 2px;
-    box-shadow: 5px 5px 8px rgb(168, 168, 168), 10px 10px 4px rgb(209, 206, 206), 15px 15px 4px rgb(238, 236, 236);
-
-}
+.
 .heading13{
   margin-top: 50px;
 }
@@ -313,71 +295,7 @@ font-size: 40px;
     background-color: #5d61bf;
     color: white;
   }
-    
-.container5-2{
-    position: relative;
-    top: 50px;
-    bottom: 20px;
-    height:250px;
-    width: 300px;
-    display: inline-block;
-    position: relative;
-    background: white;
-    color: black;
-    text-align: center;
-    margin-left: 30px;
-    border-radius: 2px;
-    box-shadow: 5px 5px 8px rgb(168, 168, 168), 10px 10px 4px rgb(209, 206, 206), 15px 15px 4px rgb(238, 236, 236);
-
-}
-.container5-2:hover 
-{
-    background-color: #5d61bf;
-    color: white;
-  }
-.container5-3{
-    position: relative;
-    top: 50px;
-    bottom: 20px;
-    height:250px;
-    width: 300px;
-    display: inline-block;
-    position: relative;
-    background: white;
-    color: black;
-    text-align: center;
-    margin-left: 30px;
-    border-radius: 2px;
-    box-shadow: 5px 5px 8px rgb(168, 168, 168), 10px 10px 4px rgb(209, 206, 206), 15px 15px 4px rgb(238, 236, 236);
-
-}
-.container5-3:hover 
-{
-    background-color: #5d61bf;
-    color: white;
-  }
-
-  .container5-4{
-    position: relative;
-    top: 50px;
-    bottom: 20px;
-    height:250px;
-    width: 300px;
-    display: inline-block;
-    position: relative;
-    background: white;
-    color: black;
-    text-align: center;
-    margin-left: 30px;
-    border-radius: 2px;
-    box-shadow: 5px 5px 8px rgb(168, 168, 168), 10px 10px 4px rgb(209, 206, 206), 15px 15px 4px rgb(238, 236, 236);
-
-}
-.container5-4:hover 
-{
-    background-color: #5d61bf;
-    color: white;
-  }
+  
 
 
   .skill-row {
