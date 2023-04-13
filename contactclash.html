@@ -13,21 +13,35 @@
 
 <body>
 
-<style>
-    body{
-        background-color: black;
-    }
-.heading{
-    text-align: center;
-    background-color: aqua;
-    margin: 50px auto 50px auto;
-}
-.side1{
-    background-color: red;
-    
-   
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .heading {
+            text-align: center;
+            background-color: aqua;
+            margin: 50px auto 50px auto;
+        }
+
+        .side1 {
+            background-color: #800020;
+            border-radius: 8px;
+            position: relative;
+            padding-top: 20px;
+
 
         }
+        .contact {
+            text-align: center;
+            background-color: #800020;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+
+
 
         .side2 {
             background-color: #800020;
@@ -41,8 +55,11 @@
 
 
 
-    <div class="main">
-        <h1 class="heading" >contact us</h1>
+    <div class="container" style="padding: 30px;">
+        <div class="contact">
+            <h1>Contact us</h1>
+            <h6>Don't worry guys, we'll worry for you!</h6>
+        </div>
     </div>
     <div class="container">
 
@@ -65,12 +82,12 @@
                     <table>
                         <tr>
                             <td> <label for="Fullname">Full name:</label> </td>
-               
+
                             <td> <input type="text" id="name" name="name" placeholder="Full Name"> </td>
                         </tr>
                         <tr>
                             <td> <label for="email">email:</label> </td>
-                            <td>  <input type="text" id="email" name="email" placeholder="email"> </td>
+                            <td> <input type="text" id="email" name="email" placeholder="email"> </td>
                         </tr>
                         <tr>
                             <td> <label for="phone">phone number</label> </td>
