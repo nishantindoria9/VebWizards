@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+<style>
+    #image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#image-container img {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#main-image-container {
+  text-align: center;
+}
+
+#main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+</style>
+
+
+    <div id="image-container">
+        <img src="Portfolio-main/Portfolio-main/Portfolio_website/CSS/Photos/benifits/1].png" onclick="changeMainImage(this)">
+        <img src="image2.jpg" onclick="changeMainImage(this)">
+        <img src="image3.jpg" onclick="changeMainImage(this)">
+        <img src="image4.jpg" onclick="changeMainImage(this)">
+        <img src="image5.jpg" onclick="changeMainImage(this)">
+        <img src="image6.jpg" onclick="changeMainImage(this)">
+      </div>
+      <div id="main-image-container">
+        <img id="main-image" src="main-image.jpg">
+      </div>
+      
+
+      <script>
+        function changeMainImage(clickedImage) {
+  // Get the source of the clicked image
+  var newMainImageSrc = clickedImage.src;
+  
+  // Get the main image element
+  var mainImage = document.getElementById("main-image");
+  
+  // Change the source of the main image to the clicked image's source
+  mainImage.src = newMainImageSrc;
+}
+
+      </script>
+</body>
+</html>
